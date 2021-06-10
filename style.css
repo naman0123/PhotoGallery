@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
+
+@media only screen and (max-width: 949px) {
+    .container-fluid #about img{
+        display: none;
+    }
+    .container-fluid #about{
+        padding-top: 1.5em;
+        padding-bottom: 1.79em;
+    }
+    
+    .container-fluid .main .menu ul h1{
+        display: none;
+    }
+    
+    .container-fluid .main #home h1{
+        display: block;
+    }
+    
+}
+
+body {
+    color: #fefefe;
+}
+
+.container-fluid{
+    width: auto;
+    font-size: xx-large;
+    font-family: 'Montserrat';
+}
+
+.container-fluid .menu{
+    opacity: 0.8;
+    height: 30px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: table;
+}
+
+.container-fluid .menu ul{
+    list-style: none;
+    font-size: x-large;
+    overflow: hidden;
+}
+
+.container-fluid .menu ul li{
+    display: inline-block;
+    margin: 15px;
+    flex-direction: row;
+    font-family: 'Bebas Neue';
+    font-size: bold;
+}
+
+.container-fluid .menu ul h1{
+    display: inline-block;
+    margin: 15px;
+    flex-direction: row;
+}
+
+.container-fluid .menu ul li a{
+    color: #fefefe;
+    text-decoration: none;
+    width: 90px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container-fluid .menu ul li a:hover{
+    opacity: 1.0;
+}
+
+.container-fluid .menu ul li a:visited{
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.container-fluid .main{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 8.69em;
+    padding-top: 0.2em;
+}
+
+.container-fluid h1{
+    font-weight: 700;
+    font-family: 'Newsreader';
+}
+
+.container-fluid p{
+    font-size: x-large;
+}
+
+.container-fluid #home h1{
+    display: none;
+}
+
+.container-fluid .card{
+    color: #8b8c8b;
+    width: 8em;
+    height: 9em;
+    border-radius: 10px;
+    transition: all 0.45s ease-out;
+    margin: 20px;
+    display: inline-block;
+    padding: 30px;
+    position: sticky;
+}
+
+.container-fluid .card:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+}
+
+.container-fluid .card .card-img-top{
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    border-radius: 100%;
+    margin-left: 7px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    left: 0;
+    top: 0;
+}
+
+.container-fluid .card .card-body{
+    padding: 20px;
+}
+
+.container-fluid .card .card-body .card-subtitle mb-2 text-muted{
+    margin-left: 5px;
+}
+
+.container-fluid #about{
+    color: #829fff;
+}
+
+.container-fluid #about .info{
+    font-family: 'Montserrat';
+    padding: 20px;
+    margin-bottom: 10em;
+}
+
+.container-fluid #about .info h1{
+    font-family: 'Montserrat';
+}
+
+.container-fluid #about img{
+    height: 14em;
+    width: 20.25em;
+}
+
+.container-fluid #carouselExampleIndicators{
+    max-width: 600px;
+    color: #2e2e2e;
+    font-family: 'Montserrat';
+}
+
+.container-fluid #carouselExampleIndicators h1{
+    color: #2e2e2e;
+    font-family: 'Montserrat';
+}
+
+.container-fluid .grid{
+    margin: 2em;
+    display: inline-grid;
+}
+
+.container-fluid .grid img{
+    margin: 0.4em;
+}
+
+.container-fluid .grid h1{
+    color: #2e2e2e;
+    font-family: 'Montserrat';
+}
+
+.container-fluid .contacts{
+    background-color: #1e1e1e;
+    width: auto;
+    padding: 20px;
+}
+
+.container-fluid .contacts h1{
+    font-family: 'Montserrat';
+}
+
+.container-fluid .contacts a{
+    display: grid;
+}
